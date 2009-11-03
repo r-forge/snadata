@@ -4,7 +4,7 @@
 \title{The adjnoun Data Set}
 \description{
     A network containing adjacency links between adjactives and nouns for the novel
-    "David Copperfield" by Charles Dickens.
+    ''David Copperfield`` by Charles Dickens.
 }
 \usage{data(adjnoun)}
 \details{

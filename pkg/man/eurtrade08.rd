@@ -21,15 +21,15 @@
     The matrix elements contain the value in Euro of exchanged goods.
     The element in the ith row and jth column indicates the value exported from
     country i to country j. No loops (internal trade).
-    \item{eutrade08}{Trade in 2008.}
-    \item{eutrade07}{Trade in 2007.}
-    \item{eutrade06}{Trade in 2006.}
-    \item{eutrade05}{Trade in 2005.}
-    \item{eutrade04}{Trade in 2004.}
-    \item{eutrade03}{Trade in 2003.}
-    \item{eutrade02}{Trade in 2002.}
-    \item{eutrade01}{Trade in 2001.}
-    \item{eutrade00}{Trade in 2000.}
+    \code{eutrade08}:Trade in 2008.
+    \code{eutrade07}:Trade in 2007.
+    \code{eutrade06}:Trade in 2006.
+    \code{eutrade05}:Trade in 2005.
+    \code{eutrade04}:Trade in 2004.
+    \code{eutrade03}:Trade in 2003.
+    \code{eutrade02}:Trade in 2002.
+    \code{eutrade01}:Trade in 2001.
+    \code{eutrade00}:Trade in 2000.
 \\\\
 
     Network properties:\\

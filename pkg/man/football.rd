@@ -15,7 +15,7 @@
     were regular season games between two teams.
     The nodes have values that indicate to which
     conferences they belong.  
-    The values (\code{get.vertex.attribute(football,"value")}) are as follows:
+    The values (\code{get.vertex.attribute(football,''value``)}) are as follows:
 
   0 = Atlantic Coast
   1 = Big East
