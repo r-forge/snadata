@@ -41,7 +41,6 @@
 \examples{
 data(adjnoun)
 list.vertex.attributes(adjnoun)
-plot(adjnoun,layout=layout.fruchterman.reingold)
 # to analyse with \pkg{sna}:
 get.adjacency(adjnoun)
 }

@@ -32,7 +32,7 @@
  
 What makes this network interesting is that it incorporates
 a known community structure. The teams
-are divided into “conferences” containing around 8 to 12
+are divided into conferences containing around 8 to 12
 teams each. Games are more frequent between members
 of the same conference than between members of different
 conferences, with teams playing an average of about
