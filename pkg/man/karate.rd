@@ -28,7 +28,6 @@
 \examples{
 data(karate)
 list.vertex.attributes(karate)
-plot(karate,layout=layout.fruchterman.reingold)
 # to analyse with \pkg{sna}:
 get.adjacency(karate)
 }

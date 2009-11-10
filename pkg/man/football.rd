@@ -63,7 +63,6 @@ large geographic distances (Newman, 2002).
 \examples{
 data(football)
 list.vertex.attributes(football)
-plot(football,layout=layout.fruchterman.reingold)
 # to analyse with \pkg{sna}:
 get.adjacency(football)
 }
