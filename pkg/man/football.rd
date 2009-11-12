@@ -60,10 +60,5 @@ large geographic distances (Newman, 2002).
 \source{
     \url{http://www-personal.umich.edu/~mejn/netdata/}
 }
-\examples{
-data(football)
-list.vertex.attributes(football)
-# to analyse with \pkg{sna}:
-get.adjacency(football)
-}
+
 \keyword{datasets}
