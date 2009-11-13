@@ -27,8 +27,5 @@
 }
 \examples{
 data(karate)
-list.vertex.attributes(karate)
-# to analyse with \pkg{sna}:
-get.adjacency(karate)
 }
 \keyword{datasets}

@@ -35,7 +35,5 @@
 }
 \examples{
 data(hepth)
-list.vertex.attributes(hepth)
-list.edge.attributes(hepth)
 }
 \keyword{datasets}

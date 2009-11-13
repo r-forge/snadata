@@ -40,8 +40,5 @@
 }
 \examples{
 data(adjnoun)
-list.vertex.attributes(adjnoun)
-# to analyse with \pkg{sna}:
-get.adjacency(adjnoun)
 }
 \keyword{datasets}

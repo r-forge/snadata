@@ -69,7 +69,5 @@
 }
 \examples{
 data(condmat1999)
-list.vertex.attributes(condmat1999)
-list.edge.attributes(condmat1999)
 }
 \keyword{datasets}

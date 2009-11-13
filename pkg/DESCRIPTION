@@ -4,7 +4,7 @@ Version: 1.0
 Date: 2009-10-29
 Author: Data collected by Angela Bohn
 Maintainer: Angela Bohn <angela.bohn@gmail.com>
-Depends: R (>= 2.9.2), igraph
+Depends: R (>= 2.9.2)
 Suggests: sna
 Description: Data for Social Network Analysis
 License: GPL (>= 2)

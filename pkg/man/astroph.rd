@@ -35,7 +35,5 @@
 }
 \examples{
 data(astroph)
-list.vertex.attributes(astroph)
-list.edge.attributes(astroph)
 }
 \keyword{datasets}
