@@ -10,11 +10,11 @@
     An \pkg{igraph} object containing the collaboration network of scientists
     posting preprints on the astrophysics archive at www.arxiv.org, 1995-1999,
     as compiled by M. Newman.  The network is weighted, with weights assigned
-    as described in the original papers.\\\\
+    as described in the original papers.
 
-    Network properties:\\
-    Number of nodes: 16706\\
-    undirected, valued\\
+    Network properties:
+    Number of nodes: 16706,
+    undirected, valued,
     Number of components: 1029
 }
 \references{

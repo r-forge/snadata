@@ -22,12 +22,12 @@
     leaving a total of 112 vertices (Newman, 2006). 
     Node values \code{(get.vertex.attribute(adjnoun,"value"))}
     are 0 for adjectives and 1
-    for nouns.\\\\
-    Network properties:\\
-    Number of nodes: 112 (58 adjectives, 54 nouns)\\
-    undirected, unvalued\\
-    Number of edges: 850\\
-    Number of components: 1
+    for nouns.
+    Network properties:
+    Number of nodes: 112 (58 adjectives, 54 nouns),
+    undirected, unvalued,
+    Number of edges: 850,
+    Number of components: 1.
 }
 \references{
     M. E. J. Newman. Finding community

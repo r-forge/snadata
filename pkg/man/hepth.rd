@@ -10,12 +10,12 @@
     An \pkg{igraph} object containing the collaboration network of scientists
     posting preprints on the high-energy theory archive at www.arxiv.org,
     1995-1999, as compiled by M. Newman.  The network is weighted, with weights
-    assigned as described in the original papers.\\\\
+    assigned as described in the original papers.
 
-    Network properties:\\
-    Number of nodes: 8361\\
-    undirected, valued\\
-    Number of components: 1332
+    Network properties:
+    Number of nodes: 8361,
+    undirected, valued,
+    Number of components: 1332.
 }
 \references{
   M. E. J. Newman, The structure of scientific collaboration networks,

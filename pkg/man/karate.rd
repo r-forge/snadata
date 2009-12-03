@@ -9,13 +9,13 @@
 \details{
     An \pkg{igraph} object containing the network of friendships between the 34
     members of a karate club at a US university, as described by Wayne Zachary
-    in 1977.\\\\
+    in 1977.
     
-    Network properties:\\
-    Number of nodes: 34\\
-    undirected, unvalued\\
-    Number of edges: 156\\
-    Number of components: 1
+    Network properties:
+    Number of nodes: 34,
+    undirected, unvalued,
+    Number of edges: 156,
+    Number of components: 1.
 }
 \references{
     W. W. Zachary. An

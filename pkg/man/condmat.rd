@@ -14,12 +14,12 @@
     is an igraph object containing the collaboration network of scientists
     posting preprints on the condensed matter archive at www.arxiv.org,
     1995-1999, as compiled by M. Newman.  The network is weighted, with weights
-    assigned as described in the original papers.\\\\
+    assigned as described in the original papers.
 
-    Network properties:\\
-    Number of nodes: 16726\\
-    undirected, valued\\
-    Number of components: 1188
+    Network properties:
+    Number of nodes: 16726,
+    undirected, valued,
+    Number of components: 1188.
     
     \code{condmat2003}
     is an updated version of condmat1999, the
@@ -29,11 +29,11 @@
     component of this network, which contains 27519 scientists, has been used
     by several authors as a test-bed for community-finding algorithms for large
     networks; see for example J. Duch and A. Arenas, Phys. Rev. E 72, 027104
-    (2005).\\\\
-    Network properties:\\
-    Number of nodes: 31163\\
-    undirected, valued\\
-    Number of components: 1599
+    (2005).
+    Network properties:
+    Number of nodes: 31163,
+    undirected, valued,
+    Number of components: 1599.
     
     \code{condmat2005}
     is an updated version of condmat1999, the
@@ -41,11 +41,11 @@
     matter archive at www.arxiv.org.  This version is based on preprints posted
     to the archive between January 1, 1995 and March 31, 2005.  The network is
     weighted, with weights assigned as described in M. E. J. Newman,
-    Phys. Rev. E 64, 016132 (2001).\\\\
-    Network properties:\\
-    Number of nodes: 40421\\
-    undirected, valued\\
-    Number of components: 1798
+    Phys. Rev. E 64, 016132 (2001).
+    Network properties:
+    Number of nodes: 40421,
+    undirected, valued,
+    Number of components: 1798.
 }
 \references{
   M. E. J. Newman. The structure of scientific collaboration networks. 2001.

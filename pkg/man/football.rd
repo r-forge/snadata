@@ -17,18 +17,18 @@
     conferences they belong.  
     The values (\code{get.vertex.attribute(football,''value``)}) are as follows:
 
-  0 = Atlantic Coast
-  1 = Big East
-  2 = Big Ten
-  3 = Big Twelve
-  4 = Conference USA
-  5 = Independents
-  6 = Mid-American
-  7 = Mountain West
-  8 = Pacific Ten
-  9 = Southeastern
- 10 = Sun Belt
- 11 = Western Athletic
+  0 = Atlantic Coast,
+  1 = Big East,
+  2 = Big Ten,
+  3 = Big Twelve,
+  4 = Conference USA,
+  5 = Independents,
+  6 = Mid-American,
+  7 = Mountain West,
+  8 = Pacific Ten,
+  9 = Southeastern,
+ 10 = Sun Belt,
+ 11 = Western Athletic.
  
 What makes this network interesting is that it incorporates
 a known community structure. The teams
@@ -43,13 +43,12 @@ distributed; teams that are geographically close
 to one another but belong to different conferences are
 more likely to play one another than teams separated by
 large geographic distances (Newman, 2002).
-\\\\
  
-    Network properties:\\
-    Number of nodes: 115\\
-    undirected, valued\\
-    Number of edges: 1226\\
-    Number of components: 1
+    Network properties:
+    Number of nodes: 115,
+    undirected, valued,
+    Number of edges: 1226,
+    Number of components: 1.
 }
 \references{
     M. Girvan and M. E. J. Newman. 2002.

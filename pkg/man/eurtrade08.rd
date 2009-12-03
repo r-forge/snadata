@@ -32,11 +32,11 @@
     \code{eutrade00}:Trade in 2000.
 \\\\
 
-    Network properties:\\
-    Number of nodes: 27\\
-    directed, valued\\
-    Number of edges: 702\\
-    Number of components: 1
+    Network properties:
+    Number of nodes: 27,
+    directed, valued,
+    Number of edges: 702,
+    Number of components: 1.
 }
 \source{
     \url{http://ec.europa.eu/eurostat}

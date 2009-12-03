@@ -13,11 +13,11 @@
     This is a data dump of the INSNA Sunbelt XXIX (2009) abstract database
     for all abstracts accepted for Sunbelt XXIX (2009) poster/presentation.
     \code{sbXXIX_authors}
-    Network properties:\\
-    Number of nodes: 112 (58 adjectives, 54 nouns)\\
-    undirected, unvalued\\
-    Number of edges: 850\\
-    Number of components: 1
+    Network properties:
+    Number of nodes: 112 (58 adjectives, 54 nouns),
+    undirected, unvalued,
+    Number of edges: 850,
+    Number of components: 1.
     \code{sbXXIX_words}
     \code{sbXXIX_twomode}
 }
