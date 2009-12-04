@@ -1,12 +1,13 @@
 \name{adjnoun}
 \alias{adjnoun}
 \docType{data}
-\title{The adjnoun Data Set}
+\title{Word network from the novel ''David Copperfield`` by Charles Dickens (igraph, n=112, undirected, unvalued, connected)}
 \description{
     A network containing adjacency links between adjactives and nouns for the novel
-    ''David Copperfield`` by Charles Dickens.
+    ''David Copperfield'' by Charles Dickens.
 }
 \usage{data(adjnoun)}
+\format{\pkg{igraph}}
 \details{
     An \pkg{igraph} object containing the 
     network representing juxtapositions
@@ -24,10 +25,10 @@
     are 0 for adjectives and 1
     for nouns.
     Network properties:
-    Number of nodes: 112 (58 adjectives, 54 nouns),
+    number of nodes: 112 (58 adjectives, 54 nouns),
     undirected, unvalued,
-    Number of edges: 850,
-    Number of components: 1.
+    number of edges: 850,
+    number of components: 1.
 }
 \references{
     M. E. J. Newman. Finding community

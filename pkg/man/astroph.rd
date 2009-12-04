@@ -1,7 +1,7 @@
 \name{astroph}
 \alias{astroph}
 \docType{data}
-\title{The astroph Data Set}
+\title{A scientific collaboration network (igraph, n=16706, undirected, valued, disconnected)}
 \description{
     A scientific collaboration network.
 }

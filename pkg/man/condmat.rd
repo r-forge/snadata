@@ -4,11 +4,12 @@
 \alias{condmat2003}
 \alias{condmat2005}
 \docType{data}
-\title{The condmat Data Set}
+\title{Three scientific collaboration networks (igraph, n=(16726,31163,40421), undirected, valued, disconnected, longitudinal)}
 \description{
-    A scientific collaboration network.
+    Three scientific collaboration networks.
 }
 \usage{data(condmat1999)}
+\format{\pkg{igraph}}
 \details{
     \code{condmat1999}
     is an igraph object containing the collaboration network of scientists
@@ -17,9 +18,9 @@
     assigned as described in the original papers.
 
     Network properties:
-    Number of nodes: 16726,
+    number of nodes: 16726,
     undirected, valued,
-    Number of components: 1188.
+    number of components: 1188.
     
     \code{condmat2003}
     is an updated version of condmat1999, the
@@ -31,9 +32,9 @@
     networks; see for example J. Duch and A. Arenas, Phys. Rev. E 72, 027104
     (2005).
     Network properties:
-    Number of nodes: 31163,
+    number of nodes: 31163,
     undirected, valued,
-    Number of components: 1599.
+    number of components: 1599.
     
     \code{condmat2005}
     is an updated version of condmat1999, the
@@ -43,9 +44,9 @@
     weighted, with weights assigned as described in M. E. J. Newman,
     Phys. Rev. E 64, 016132 (2001).
     Network properties:
-    Number of nodes: 40421,
+    number of nodes: 40421,
     undirected, valued,
-    Number of components: 1798.
+    number of components: 1798.
 }
 \references{
   M. E. J. Newman. The structure of scientific collaboration networks. 2001.

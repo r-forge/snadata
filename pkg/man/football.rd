@@ -1,9 +1,9 @@
 \name{football}
 \alias{football}
 \docType{data}
-\title{The football Data Set}
+\title{An American football network}
 \description{
-    An American football network.
+    An American football network (igraph, n=115, undirected, valued, connected, known community structure).
 }
 \usage{data(football)}
 \details{
@@ -37,7 +37,6 @@ teams each. Games are more frequent between members
 of the same conference than between members of different
 conferences, with teams playing an average of about
 7 intra-conference games and 4 inter-conference games
-5
 in the 2000 season. Inter-conference play is not uniformly
 distributed; teams that are geographically close
 to one another but belong to different conferences are
@@ -45,10 +44,10 @@ more likely to play one another than teams separated by
 large geographic distances (Newman, 2002).
  
     Network properties:
-    Number of nodes: 115,
+    number of nodes: 115,
     undirected, valued,
-    Number of edges: 1226,
-    Number of components: 1.
+    number of edges: 1226,
+    number of components: 1.
 }
 \references{
     M. Girvan and M. E. J. Newman. 2002.

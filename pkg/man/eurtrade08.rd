@@ -9,11 +9,12 @@
 \alias{eutrade01}
 \alias{eutrade00}
 \docType{data}
-\title{The eutrade Data Sets}
+\title{Nine EU trade networks (matrix, n=27, directed, valued, connected, longitudinal)}
 \description{
     Trade networks between 27 EU countries in 2000 to 2008.
 }
 \usage{data(eutrade08)}
+\format{Adjacency matrix}
 \details{
     \pkg{sna} objects (adjacency matrix) containing the trade network of the 27
     EU countries.
@@ -30,13 +31,12 @@
     \code{eutrade02}:Trade in 2002.
     \code{eutrade01}:Trade in 2001.
     \code{eutrade00}:Trade in 2000.
-\\\\
 
     Network properties:
-    Number of nodes: 27,
+    number of nodes: 27,
     directed, valued,
-    Number of edges: 702,
-    Number of components: 1.
+    number of edges: 702,
+    number of components: 1.
 }
 \source{
     \url{http://ec.europa.eu/eurostat}

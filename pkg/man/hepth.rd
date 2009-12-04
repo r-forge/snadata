@@ -3,7 +3,7 @@
 \docType{data}
 \title{The hepth Data Set}
 \description{
-    A scientific collaboration network.
+    A scientific collaboration network (igraph, n=8361, undirected, valued, disconnected).
 }
 \usage{data(astroph)}
 \details{
@@ -13,9 +13,9 @@
     assigned as described in the original papers.
 
     Network properties:
-    Number of nodes: 8361,
+    number of nodes: 8361,
     undirected, valued,
-    Number of components: 1332.
+    number of components: 1332.
 }
 \references{
   M. E. J. Newman, The structure of scientific collaboration networks,
