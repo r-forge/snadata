@@ -20,6 +20,14 @@
     number of isolates: 1.
 }
 \source{The \pkg{ergm} package.}
+\references{Wasserman, S. and Faust, K. (1994) _Social Network Analysis:
+     Methods and Applications_, Cambridge University Press, Cambridge,
+     England.
+
+     Breiger R. and Pattison P. (1986). _Cumulated social roles: The
+     duality of persons and their algebras_, Social Networks, 8,
+     215-256.
+}
 \examples{
 data(flomarriage,package="ergm")
 }

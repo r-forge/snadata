@@ -20,6 +20,8 @@
     number of isolates: 3 and 4.
 }
 \source{The \pkg{sna} package.}
+\references{Coleman, J. S.  (1964).  Introduction to Mathermatical
+     Sociology. New York: Free Press.}
 \examples{
 data(coleman,package="sna")
 }

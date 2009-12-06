@@ -6,7 +6,7 @@
 \docType{data}
 \title{The sbXXIX Data Set}
 \description{
-    bla.
+    .
 }
 \usage{data(sbXXIX)}
 \details{

@@ -1,7 +1,8 @@
 \name{mosquin1967}
 \alias{mosquin1967}
 \docType{data}
-\title{A biological network indicating which flower visitors were observed on which plants (bipartite matrix, n=29, undirected, valued, disconnected)}
+\title{A biological network indicating which flower visitors were observed on which plants 
+    (bipartite matrix, n=29, undirected, valued, disconnected)}
 \description{
     A biological bipartite (2-mode) network indicating which flower visitors were observed on which plants.
     The bipartite network can be transformed into a 1-mode adjacency matrix using \code{as.one.mode()}.

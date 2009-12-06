@@ -20,7 +20,7 @@
 }
 \source{The \pkg{NetIndices} package.}
 \references{
-Niquil, N., Jackson, G.A., Legendre, L., Delesalle, B., 1998.
+     Niquil, N., Jackson, G.A., Legendre, L., Delesalle, B., 1998.
      Inverse model analysis of the planktonic food web of Takapoto
      Atoll (French Polynesia). Marine Ecology Progress Series 165,
      17..29.

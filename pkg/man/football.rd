@@ -58,5 +58,4 @@ large geographic distances (Newman, 2002).
 \source{
     \url{http://www-personal.umich.edu/~mejn/netdata/}
 }
-
 \keyword{datasets}

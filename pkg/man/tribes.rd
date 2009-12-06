@@ -1,7 +1,8 @@
 \name{tribes}
 \alias{tribes}
 \docType{data}
-\title{Political alliances and enmities among 16 tribes of New Guinea (edgelist, n=16, undirected, valued, disconnected, isolates)}
+\title{Political alliances and enmities among 16 tribes of New Guinea 
+(edgelist, n=16, undirected, valued, disconnected, isolates)}
 \description{
     A network of political alliances and enmities among the 16
      Gahuku-Gama sub-tribes of Eastern Central Highlands of New Guinea.
@@ -20,6 +21,14 @@
     number of isolates: (1,0,0).
 }
 \source{The \pkg{latentnet} package.}
+\references{Hage P. and
+     Harary F. (1983). Structural models in anthropology. Cambridge:
+     Cambridge University Press. (See p 56-60).  
+     
+     Read K. (1954).
+     Cultures of the central highlands, New Guinea. Southwestern
+     Journal of Anthropology, 10:1-43.
+}
 \examples{
 data(tribes,package="latentnet")
 network::list.edge.attributes(tribes)

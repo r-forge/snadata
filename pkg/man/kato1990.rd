@@ -19,7 +19,7 @@
     number of isolates: 4.
 }
 \source{The \pkg{bipartite} package.}
-\references{ Kato, M., T. Makutani, T. Inoue, and T. Itino. 1990. Insect-flower
+\references{Kato, M., T. Makutani, T. Inoue, and T. Itino. 1990. Insect-flower
      relationship in the primary beech forest of Ashu, Kyoto: An overview of the flowering phenology and the seasonal pattern
      of insect visits. Contrib. Biol. Lab.., Kyoto Univ. 27, 377463.
 }

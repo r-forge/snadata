@@ -1,7 +1,8 @@
 \name{Safariland}
 \alias{Safariland}
 \docType{data}
-\title{Biological network indicating the which pollinators visit which plants (2-mode matrix, n=36, undirected, valued, disconnected)}
+\title{Biological network indicating the which pollinators visit which plants 
+(2-mode matrix, n=36, undirected, valued, disconnected)}
 \description{
     A bipartite (2-mode) biological network indicating which of the 27 pollinators visit which of the 9 plants.
     The bipartite network can be transformed to a 1-mode adjacency matrix using \code{bipartite::as.one.mode()}.

@@ -1,7 +1,8 @@
 \name{ollerton2003}
 \alias{ollerton2003}
 \docType{data}
-\title{A biological network indicating which flower visitors were observed on which plants (bipartite matrix, n=65, undirected, valued, connected)}
+\title{A biological network indicating which flower visitors were observed on which plants 
+    (bipartite matrix, n=65, undirected, valued, connected)}
 \description{
     A biological bipartite (2-mode) network indicating which flower visitors were observed on which plants.
 }

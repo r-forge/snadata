@@ -22,6 +22,10 @@
     number of components: 1.
 }
 \source{The \pkg{ergm} package.}
+\references{White, H.C., Boorman, S.A. and Breiger, R.L. (1976).  _Social
+     structure from multiple networks. I. Blockmodels of roles and
+     positions._ American Journal of Sociology, 81(4), 730-780.
+}
 \examples{
 data(samplk,package="ergm")
 }

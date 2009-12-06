@@ -1,7 +1,8 @@
 \name{memmott1999}
 \alias{memmott1999}
 \docType{data}
-\title{A biological network indicating which flower visitors were observed on which plants (bipartite matrix, n=104, undirected, valued, connected)}
+\title{A biological network indicating which flower visitors were observed on which plants 
+    (bipartite matrix, n=104, undirected, valued, connected)}
 \description{
     A biological bipartite (2-mode) network indicating which flower visitors were observed on which plants.
     The bipartite network can be transformed into a 1-mode adjacency matrix using \code{as.one.mode()}.
@@ -20,6 +21,7 @@
 \source{The \pkg{bipartite} package.}
 \references{Memmott, J. 1999. The structure of a plant-pollinator food web.
      Ecology Letters 2:276-280.
+}
 \examples{
 data(memmott1999,package="bipartite")
 # transform into 1-mode adjacency matrix:

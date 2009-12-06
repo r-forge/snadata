@@ -1,7 +1,8 @@
 \name{inouye1988}
 \alias{inouye1988}
 \docType{data}
-\title{A biological network indicating which flower visitors were observed on which plants (bipartite matrix, n=124, undirected, valued, disconnected)}
+\title{A biological network indicating which flower visitors were observed on which plants 
+    (bipartite matrix, n=124, undirected, valued, disconnected)}
 \description{
     A biological bipartite (2-mode) network indicating which flower visitors were observed on which plants.
 }

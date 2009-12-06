@@ -1,7 +1,8 @@
 \name{elberling1999}
 \alias{elberling1999}
 \docType{data}
-\title{A biological network indicating which flower visitors were observed on which plants (bipartite matrix, n=141, undirected, valued, connected)}
+\title{A biological network indicating which flower visitors were observed on which plants 
+    (bipartite matrix, n=141, undirected, valued, connected)}
 \description{
     A biological bipartite (2-mode) network indicating which flower visitors were observed on which plants.
     The bipartite network can be transformed into a 1-mode adjacency matrix using \code{as.one.mode(elberling1999)}.
@@ -20,7 +21,8 @@
 \source{The \pkg{bipartite} package.}
 \references{Elberling H. and Olesen J.M. (1999) The structure of a high
      latitude plant-flower visitor system: The dominance of flies.
-     Ecography, 22, 314-323}
+     Ecography, 22, 314-323
+}
 \examples{
 data(elberling1999,package="bipartite")
 # transform into 1-mode adjacency matrix:

@@ -5,7 +5,7 @@
 \description{
      A \pkg{network} object (edgelist) of business ties among Renaissance Florentine families.
 }
-\usage{data(flo,package="network")}
+\usage{data(flobusiness,package="network")}
 \format{\pkg{network} (edgelist)}
 \details{
     An \pkg{network} object (edgelist) containing the business links between 16
@@ -19,6 +19,14 @@
     number of isolates: 5.
 }
 \source{The \pkg{ergm} package.}
+\references{ Wasserman, S. and Faust, K. (1994) _Social Network Analysis:
+     Methods and Applications_, Cambridge University Press, Cambridge,
+     England.
+
+     Breiger R. and Pattison P. (1986). _Cumulated social roles: The
+     duality of persons and their algebras_, Social Networks, 8,
+     215-256.
+}
 \examples{
 data(flobusiness,package="ergm")
 }
