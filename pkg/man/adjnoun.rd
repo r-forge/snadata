@@ -41,5 +41,6 @@
 }
 \examples{
 data(adjnoun)
+install.packages("bipartite")
 }
 \keyword{datasets}
