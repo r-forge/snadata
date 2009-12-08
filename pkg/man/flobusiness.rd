@@ -5,7 +5,7 @@
 \description{
      A \pkg{network} object (edgelist) of business ties among Renaissance Florentine families.
 }
-\usage{data(flobusiness,package="network")}
+\usage{data(florentine,package="network")}
 \format{\pkg{network} (edgelist)}
 \details{
     An \pkg{network} object (edgelist) containing the business links between 16
@@ -28,6 +28,6 @@
      215-256.
 }
 \examples{
-data(flobusiness,package="ergm")
+data(florentine,package="ergm")
 }
 \keyword{datasets}

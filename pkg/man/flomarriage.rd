@@ -6,7 +6,7 @@
     This is a data set of Padgett (1994), consisting of weddings among
      leading renaissance Florentine families.
 }
-\usage{data(flomarriage,package="ergm")}
+\usage{data(florentine,package="ergm")}
 \format{\pkg{network} (edgelist)}
 \details{
     An \pkg{network} object (edgelist) containing the marriage links between 16
@@ -29,6 +29,6 @@
      215-256.
 }
 \examples{
-data(flomarriage,package="ergm")
+data(florentine,package="ergm")
 }
 \keyword{datasets}

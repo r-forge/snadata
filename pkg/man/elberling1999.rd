@@ -13,7 +13,7 @@
     See \code{?bipartite::elberling1999} for further details.
 
     Network properties:
-    number of nodes: 141 (12 plants and 118 visiors),
+    number of nodes: 141 (23 plants and 118 visiors),
     undirected, valued,
     number of edges: 476,
     number of components: 1.
