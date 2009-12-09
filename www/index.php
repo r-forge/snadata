@@ -43,7 +43,7 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> <a href="gallery.html">Gallery of network graphs</a> </p>
+<p> <font size="5"><a href="gallery.html">Gallery of network graphs</a></font></p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
