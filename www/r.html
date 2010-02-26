@@ -1,11 +1,11 @@
 <html>
 <head>
-  <title>The snadata Sociology Gallery</title>
+  <title>The R Related Networks Gallery</title>
 </head>
 <body>
 <a href="http://snadata.r-forge.r-project.org/">[ Home ]</a>
 <a href="https://r-forge.r-project.org/projects/snadata">[ Download the package ]</a> <br><br>
-<font size="4">Sociological Networks</font><br><br>
+<font size="4">R Related Networks</font><br><br>
 <table border=2>
   <tr>
     <td>
@@ -17,28 +17,33 @@
   </tr>
   <tr>
     <td>
-      <a href="colemanfall.pdf"><img src="colemanfall.jpg" width="35%" alt="colemanfall"></a>
+      <a href="cran.authors.pdf"><img src="cran.authors.jpg" width="35%" alt="cran.authors"></a>
     </td>
     <td>
-      coleman fall: <b>High-school friendship</b> network in fall semester.<br>
-      <a href="code.r">Plotting code</a>
-    </td>
-  <tr>
-  <tr>
-    <td>
-      <a href="colemanspring.pdf"><img src="colemanspring.jpg" width="35%" alt="colemanspring"></a>
-    </td>
-    <td>
-      coleman spring: <b>High-school friendship</b> network in spring semester.<br>
+      cran.authors: Network of CRAN package developers. Two developers are connected if they wrote a package together.
+      (Only largest component.)(<br>
       <a href="code.r">Plotting code</a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="karate.pdf"><img src="karate.jpg" width="35%" alt="karate"></a>
+      <a href="taskviews.pdf"><img src="taskviews.jpg" width="35%" alt="taskviews"></a>
     </td>
     <td>
-      karate: <b>Friendship ties</b> between members of a karate club.<br>
+      taskviews: Network of packages (blue) and tasks (red) as mentionned in
+      <a href="http://cran.r-project.org/web/views/">Task Views</a>
+      A package and a task are connected if the package was mentionned in a task.<br>
+      <a href="code.r">Plotting code</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="jss.pdf"><img src="jss.jpg" width="35%" alt="jss"></a>
+    </td>
+    <td>
+      jss: Network of authors who published an article in the Journal of Statistical Software.
+      Two authors are connected if they wrote at least one article together.
+      (Isolates omitted. Random color selection.)<br>
       <a href="code.r">Plotting code</a>
     </td>
   </tr>

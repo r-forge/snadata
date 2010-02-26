@@ -17,12 +17,37 @@ gplot(net,
       vertex.border="grey"
       )
 dev.off()
+pdf("adjnoun.pdf")
+par(mar=c(0,0,0,0))
+gplot(net,
+      gmode="graph",
+      label=rownames(net),
+      boxed.labels=F,
+      edge.col="grey",
+      label.cex=(sna::degree(net)^0.4)*0.4,
+      edge.lwd=0.1,
+      vertex.col="transparent",
+      vertex.border="grey"
+      )
+dev.off()
 
 data(barrett1987)
 library(bipartite)
 library(sna)
 net <- as.one.mode(barrett1987)
 jpeg("barrett1987.jpg")
+par(mar=c(0,0,0,0))
+gplot(net,
+      gmode="graph",
+      label.col=c(rep("blue",9),rep("red",105)),
+      edge.col="grey",
+      vertex.col="transparent",
+      label=rownames(net),
+      boxed.labels=F,
+      label.cex=(sna::degree(net,ignore.eval=T)^0.4)*0.3,
+      )
+dev.off()
+pdf("barrett1987.pdf")
 par(mar=c(0,0,0,0))
 gplot(net,
       gmode="graph",
@@ -48,7 +73,25 @@ gplot(netfall,
       edge.col="grey20"
       )
 dev.off()
+pdf("colemanfall.pdf")
+par(mar=c(0,0,0,0))
+gplot(netfall,
+      gmode="graph",
+      vertex.cex=(sna::degree(netfall,ignore.eval=T))*0.1,
+      vertex.col="lightgreen",
+      edge.col="grey20"
+      )
+dev.off()
 jpeg("colemanspring.jpg")
+par(mar=c(0,0,0,0))
+gplot(netspring,
+      gmode="graph",
+      vertex.cex=(sna::degree(netspring,ignore.eval=T))*0.1,
+      vertex.col="lightgreen",
+      edge.col="grey20"
+      )
+dev.off()
+pdf("colemanspring.pdf")
 par(mar=c(0,0,0,0))
 gplot(netspring,
       gmode="graph",
@@ -73,38 +116,16 @@ gplot(net,
       label.cex=(sna::degree(net,ignore.eval=T)^0.4)*0.3,
       )
 dev.off()
-
-library(sna)
-library(network)
-data(flobusiness)
-net <- as.matrix.network(flobusiness)
-jpeg("flobusiness.jpg")
+pdf("elberling1999.pdf")
 par(mar=c(0,0,0,0))
 gplot(net,
       gmode="graph",
+      label.col=c(rep("blue",23),rep("red",118)),
+      edge.col="grey",
+      vertex.col="transparent",
       label=rownames(net),
       boxed.labels=F,
-      label.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)+2)*0.2,
-      vertex.col="white",
-      edge.col="grey20",
-      vertex.cex=get.vertex.attribute(flobusiness,"wealth")*0.05
-      )
-dev.off()
-
-library(sna)
-library(network)
-data(flomarriage)
-net <- as.matrix.network(flomarriage)
-jpeg("flomarriage.jpg")
-par(mar=c(0,0,0,0))
-gplot(net,
-      gmode="graph",
-      label=rownames(net),
-      boxed.labels=F,
-      label.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)+2)*0.2,
-      vertex.col="white",
-      edge.col="grey20",
-      vertex.cex=get.vertex.attribute(flomarriage,"wealth")*0.05
+      label.cex=(sna::degree(net,ignore.eval=T)^0.4)*0.3,
       )
 dev.off()
 
@@ -120,43 +141,98 @@ gplot(net,
       vertex.col="lightgreen"
       )
 dev.off()
-
-library(sna)
-library(network)
-data(sampson)
-net <- as.matrix.network(samplike)
-jpeg("sampson.jpg")
+pdf("karate.pdf")
 par(mar=c(0,0,0,0))
 gplot(net,
+      gmode="graph",
       vertex.cex=sna::degree(net)*0.1,
-      vertex.col="lightgreen",
-      label=get.vertex.attribute(samplike,"vertex.names"),
-      boxed.labels=F
+      vertex.col="lightgreen"
       )
 dev.off()
 
 library(sna)
-library(network)
-data(tribes)
-tribes.neg <- as.matrix.network(tribes,matrix.type="adjacency",attrname="neg")
-tribes.pos <- as.matrix.network(tribes,matrix.type="adjacency",attrname="pos")
-jpeg("tribes.neg.jpg")
+library(snatm) # from R-Forge
+net <- cran()
+net <- component.largest(net,connected="weak",result="graph")
+jpeg("cran.jpg")
 par(mar=c(0,0,0,0))
-gplot(tribes.neg,
+gplot(net,
       gmode="graph",
-      label=get.vertex.attribute(tribes,"vertex.names"),
-      boxed.labels=F,
-      vertex.col="lightgreen",
-      vertex.cex=(sna::degree(tribes.neg,ignore.eval=T)+1)*0.2
-      )
+      edge.col="grey",
+      vertex.col="transparent",
+      vertex.border="black",
+      vertex.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)^0.5)*0.1)
 dev.off()
-jpeg("tribes.pos.jpg")
+pdf("cran.pdf")
 par(mar=c(0,0,0,0))
-gplot(tribes.pos,
+gplot.snatm(net,
       gmode="graph",
-      label=get.vertex.attribute(tribes,"vertex.names"),
+      edge.col="grey",
+      vertex.col="transparent",
+#      vertex.border="black",
+      label=rownames(net),
       boxed.labels=F,
-      vertex.col="lightgreen",
-      vertex.cex=(sna::degree(tribes.pos,ignore.eval=T)+1)*0.2
-      )
+      label.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)^0.4)*0.1,
+      label.pos=5)
 dev.off()
+
+library(sna)
+library(snatm)   # from R-Forge
+elist <- taskviews()
+net <- adjacency(elist,mode="multiple")
+pkgs <- which(is.element(rownames(net),elist[,1]))
+tasks <- which(is.element(rownames(net),elist[,2]))
+vertex.col <- 1:ncol(net)
+vertex.col[pkgs] <- "blue"
+vertex.col[tasks] <- "red"
+jpeg("taskviews.jpg")
+par(mar=c(0,0,0,0))
+gplot(net, 
+      gmode="graph",
+      vertex.col=vertex.col,
+      edge.col="grey")
+dev.off()
+label <- rownames(net)
+label.cex <- rep(1,ncol(net))
+label.cex[pkgs] <- 0.3
+pdf("taskviews.pdf")
+par(mar=c(0,0,0,0))
+gplot.snatm(net, 
+      gmode="graph",
+      vertex.col=vertex.col,
+      edge.col="grey",
+      label=label,
+      boxed.labels=F,
+      label.pos=5,
+      label.cex=label.cex)
+dev.off()
+
+library(sna)
+library(snatm)   # from R-Forge
+net <- jss()
+deg <- degree(net,cmode="freeman",ignore.eval=T)
+net <- net[,deg>0]
+net <- net[deg>0,]
+jpeg("jss.jpg")
+par(mar=c(0,0,0,0))
+gplot.snatm(net,
+            gmode="graph",
+            label=rownames(net),
+            label.cex=degree(net,cmode="freeman",ignore.eval=T)*0.05,
+            boxed.labels=F,
+            label.pos=5,
+            vertex.col="transparent",
+            label.col=rainbow(ncol(net)))
+dev.off()
+pdf("jss.pdf")
+par(mar=c(0,0,0,0))
+gplot.snatm(net,
+            gmode="graph",
+            label=rownames(net),
+            label.cex=degree(net,cmode="freeman",ignore.eval=T)*0.05,
+            boxed.labels=F,
+            label.pos=5,
+            vertex.col="transparent",
+            label.col=rainbow(ncol(net)))
+dev.off()
+

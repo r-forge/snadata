@@ -1,4 +1,4 @@
-cran <- function(correct=T){
+cran.authors <- function(correct=T){
   database <- .readRDS(file=url("http://cran.r-project.org/web/packages/packages.rds",encoding="UTF-8"))
   authors <- database[,13]
   pkgs <- database[,1]
