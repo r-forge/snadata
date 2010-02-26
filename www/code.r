@@ -152,9 +152,9 @@ dev.off()
 
 library(sna)
 library(snatm) # from R-Forge
-net <- cran()
+net <- cran.authors()
 net <- component.largest(net,connected="weak",result="graph")
-jpeg("cran.jpg")
+jpeg("cran.authors.jpg")
 par(mar=c(0,0,0,0))
 gplot(net,
       gmode="graph",
@@ -163,7 +163,7 @@ gplot(net,
       vertex.border="black",
       vertex.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)^0.5)*0.1)
 dev.off()
-pdf("cran.pdf")
+pdf("cran.authors.pdf")
 par(mar=c(0,0,0,0))
 gplot.snatm(net,
       gmode="graph",
@@ -236,3 +236,50 @@ gplot.snatm(net,
             label.col=rainbow(ncol(net)))
 dev.off()
 
+library(snatm)
+library(sna)
+net <- cran.depends()
+net <- component.largest(net,connected="weak",result="graph")
+jpeg("cran.depends.jpg")
+par(mar=c(0,0,0,0))
+gplot.snatm(net,
+      vertex.col="transparent",
+      edge.col="grey")
+dev.off()
+pdf("cran.depends.pdf")
+par(mar=c(0,0,0,0))
+gplot.snatm(net,
+      label=rownames(net),
+      boxed.labels=F,
+      label.pos=5,
+      label.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)^0.3)*0.3,
+      vertex.col="transparent",
+      label.col=rainbow(ncol(net)),
+      edge.col="grey",
+      vertex.border="transparent",
+      edge.lwd=0.1)
+dev.off()
+
+library(snatm)
+library(sna)
+net <- cran.suggests()
+net <- component.largest(net,connected="weak",result="graph")
+jpeg("cran.suggests.jpg")
+par(mar=c(0,0,0,0))
+gplot.snatm(net,
+      vertex.col="transparent",
+      edge.col="grey")
+dev.off()
+pdf("cran.suggests.pdf")
+par(mar=c(0,0,0,0))
+gplot.snatm(net,
+      label=rownames(net),
+      boxed.labels=F,
+      label.pos=5,
+      label.cex=(sna::degree(net,cmode="freeman",ignore.eval=T)^0.5)*0.3,
+      vertex.col="transparent",
+      label.col=rainbow(ncol(net)),
+      edge.col="grey",
+      vertex.border="transparent",
+      edge.lwd=0.1)
+dev.off()

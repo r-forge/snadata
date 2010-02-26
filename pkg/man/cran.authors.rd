@@ -1,12 +1,12 @@
-\name{cran}
-\alias{cran}
+\name{cran.authors}
+\alias{cran.authors}
 \title{Creates a network of CRAN developers}
 \description{
 Creates a network of CRAN developers (\url{http://cran.r-project.org/web/packages/}).
 Two developers are connected if they wrote a CRAN package together.
 An Internet connection is required as the data will be downloaded from the R web site.
 }
-\usage{cran.net(correct=TRUE)}
+\usage{cran.authors(correct=TRUE)}
 \format{Adjacency matrix.}
 \arguments{
 \item{correct}{logical. If \code{TRUE} an alias detection procedure will be performed
@@ -40,7 +40,7 @@ elements tell in how many packages the corresponding developers collaborated.
     \url(http://cran.r-project.org/web/packages/packages.rds}
 }
 \examples{
-cran()
+cran.authors()
 }
 \author{Angela Bohn (\url{angela.bohn@gmail.com})}
 \keyword{datasets}
