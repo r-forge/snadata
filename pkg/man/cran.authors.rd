@@ -10,7 +10,7 @@ An Internet connection is required as the data will be downloaded from the R web
 \format{Adjacency matrix.}
 \arguments{
 \item{correct}{logical. If \code{TRUE} an alias detection procedure will be performed
-based on \code{findclusters} and \code{changenames} of the R-Forge \pkgs{snatm} package,
+based on \code{findclusters} and \code{changenames} of the R-Forge snatm package,
 and the \code{take.memory.cran} data set. This way, authors who wrote several packages
 under slightly different names (e.g. with/without middle names, titles etc.) are matched.}
 }
@@ -37,7 +37,7 @@ elements tell in how many packages the corresponding developers collaborated.
 }
 \source{
     \url{http://cran.r-project.org/web/packages/},
-    \url(http://cran.r-project.org/web/packages/packages.rds}
+    \url{http://cran.r-project.org/web/packages/packages.rds}
 }
 \examples{
 cran.authors()

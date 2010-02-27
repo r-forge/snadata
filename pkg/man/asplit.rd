@@ -1,10 +1,10 @@
-\name{.asplit}
-\alias{.asplit}
-\title{Used by \code{cran.net} for data preparation}
+\name{asplit}
+\alias{asplit}
+\title{Used by \code{cran.authors} for data preparation}
 \description{
-Used by \code{cran.net} for data preparation. Function is not intended to be called seperately.
+Used by \code{cran.authors} for data preparation. Function is not intended to be called seperately.
 }
-\usage{.asplit(x)}
+\usage{asplit(x)}
 \arguments{
 \item{x}{A character string containing a number of names.}
 }

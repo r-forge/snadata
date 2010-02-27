@@ -283,3 +283,38 @@ gplot.snatm(net,
       vertex.border="transparent",
       edge.lwd=0.1)
 dev.off()
+
+lists <- c("devel")
+years <- 2004
+months <- c("January","February","March","April","May","June","July","August","September","October","November","December")
+files <- c()
+for (i in seq_along(years)){
+  for (j in seq_along(months)){
+    files <- c(files,paste(years[i],"-",months[j],".txt",sep=""))
+  }
+}
+# log: April 2003
+for (i in seq_along(files)){
+  for (j in seq_along(lists)){
+    net <- rmailinglists(list=lists[j],files=files[i])
+    jpeg(paste("r",lists[j],"_",unlist(strsplit(files[i],split=".txt")),".jpg",sep=""))
+    par(mar=c(0,0,0,0))
+    gplot.snatm(net,
+         vertex.cex=((snatm::normalize(sna::degree(net,cmode="freeman",ignore.eval=T))+0.01)*1.5)^0.4,
+         edge.lwd=net*0.1,
+         vertex.col="transparent")
+    dev.off()
+    pdf(paste("r",lists[j],"_",unlist(strsplit(files[i],split=".txt")),".pdf",sep=""))
+    par(mar=c(0,0,0,0))
+    gplot.snatm(net,
+         label=rownames(net),
+         boxed.labels=F,
+         label.pos=5,
+         label.cex=((snatm::normalize(sna::degree(net,cmode="freeman",ignore.eval=T))+0.01)*1.5)^0.4,
+         edge.lwd=net*0.1,
+         vertex.col="transparent",
+         vertex.border="transparent",
+         edge.col="grey")
+    dev.off()
+  }
+}
