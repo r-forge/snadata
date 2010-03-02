@@ -15,7 +15,7 @@ and the \code{take.memory.cran} data set. This way, authors who wrote several pa
 under slightly different names (e.g. with/without middle names, titles etc.) are matched.}
 }
 \details{
-Downloads the package information from \url(http://cran.r-project.org/web/packages/packages.rds}
+Downloads the package information from \url{http://cran.r-project.org/web/packages/packages.rds}
 (Internet connection is required) and performs some data preparation procedures including
 \code{clean1}, \code{clean2}, and \code{.asplit}. 
 Please report data preparation errors to \url{angela.bohn@gmail.com}.
