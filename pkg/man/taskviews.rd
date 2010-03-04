@@ -10,7 +10,7 @@ An Internet connection is required as the data is downloaded from the R page.
 \format{Edgelist.}
 \details{
 The R Task Views is an assignment of certain R packages to fields of research or applications.
-The function downloads the Task Views information from \url(http://cran.r-project.org/web/packages/packages.rds}
+The function downloads the Task Views information from \url{http://cran.r-project.org/web/packages/packages.rds}
 (Internet connection is required) and generates an edgelist having the package names
 in the first column and the task in which it is mentionned in the second column.
 Packages may appear several times (as well as tasks, of course).
@@ -31,7 +31,7 @@ contains the task in which the package was mentionned.
 }
 \source{
     \url{http://cran.r-project.org/web/views/},
-    \url(http://CRAN.R-project.org/src/contrib/Views.rds}
+    \url{http://CRAN.R-project.org/src/contrib/Views.rds}
 }
 \examples{
 taskviews()
