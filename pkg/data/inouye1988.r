@@ -1,2 +1,2 @@
-library("inouye1988")
+library("bipartite")
 data(inouye1988,package="bipartite")
